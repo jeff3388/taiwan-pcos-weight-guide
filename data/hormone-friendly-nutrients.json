@@ -1,0 +1,137 @@
+{
+  "_meta": {
+    "title": "PCOS 荷爾蒙友善營養素資料庫",
+    "description": "有研究支持的 PCOS 關鍵營養素，含台灣在地飲食攝取建議",
+    "version": "1.0.0",
+    "last_updated": "2026-04-16",
+    "sources": [
+      "Teede HJ et al. (2023) PMID: 37581503 - PCOS 國際指引",
+      "Szczuko M et al. (2019) PMID: 30857397 - PCOS 微量營養素",
+      "Foroozanfard F et al. (2017) PMID: 27788902 - 維生素 D",
+      "衛福部國民健康署國人膳食營養素參考攝取量（第八版）"
+    ],
+    "nutrients_count": 7
+  },
+  "nutrients": [
+    {
+      "id": "nut_001",
+      "nutrient": "維生素 D",
+      "evidence_level": "強",
+      "pmid": "27788902",
+      "pcos_relevance": "維生素 D 缺乏與胰島素阻抗、不規則月經、卵泡發育異常顯著相關",
+      "taiwan_deficiency_rate": "台灣女性維生素 D 缺乏率約 60-70%（室內工作、防曬習慣）",
+      "target_serum_ng_ml": 30,
+      "supplement_dose_iu": "1000-2000 IU/day（血清 < 20 ng/mL 者建議 4000 IU）",
+      "food_sources_taiwan": [
+        { "food": "鮭魚（100g）", "vit_d_iu": 450 },
+        { "food": "秋刀魚（100g）", "vit_d_iu": 380 },
+        { "food": "雞蛋（1顆）", "vit_d_iu": 40 },
+        { "food": "日曬乾香菇（10g）", "vit_d_iu": 120 }
+      ],
+      "taiwan_note_zh": "台灣陰天多、室內工作為主，飲食難達需求，多數 PCOS 女性需補充劑"
+    },
+    {
+      "id": "nut_002",
+      "nutrient": "鎂（Magnesium）",
+      "evidence_level": "中等",
+      "pmid": "30857397",
+      "pcos_relevance": "鎂為超過 300 種酵素輔因子，包括胰島素信號傳導相關酵素；PCOS 患者血清鎂普遍偏低",
+      "taiwan_rda_mg_per_day": 320,
+      "supplement_dose_mg": "200-400 mg/day（甘胺酸鎂吸收率最佳）",
+      "food_sources_taiwan": [
+        { "food": "南瓜子（30g）", "magnesium_mg": 156 },
+        { "food": "腰果（30g）", "magnesium_mg": 82 },
+        { "food": "黑豆（100g 熟）", "magnesium_mg": 65 },
+        { "food": "菠菜（100g 熟）", "magnesium_mg": 87 },
+        { "food": "黑巧克力 85%（30g）", "magnesium_mg": 65 }
+      ],
+      "taiwan_note_zh": "精緻飲食（白飯、麵食）導致鎂攝取不足，PCOS 患者應有意識增加堅果與深色蔬菜"
+    },
+    {
+      "id": "nut_003",
+      "nutrient": "鋅（Zinc）",
+      "evidence_level": "中等",
+      "pmid": "30857397",
+      "pcos_relevance": "鋅抑制 5α-還原酶（5α-reductase），減少睪固酮轉為二氫睪固酮（DHT），改善多毛症及痤瘡",
+      "taiwan_rda_mg_per_day": 12,
+      "supplement_dose_mg": "25-50 mg/day（葡萄糖酸鋅或吡啶甲酸鋅，空腹吸收佳）",
+      "food_sources_taiwan": [
+        { "food": "牡蠣（100g）", "zinc_mg": 16.6 },
+        { "food": "牛肉（100g）", "zinc_mg": 6.2 },
+        { "food": "南瓜子（30g）", "zinc_mg": 2.5 },
+        { "food": "腰果（30g）", "zinc_mg": 1.6 }
+      ],
+      "taiwan_note_zh": "台灣盛產牡蠣，是最高效的天然鋅來源，每週 2-3 次是改善雄激素的飲食策略"
+    },
+    {
+      "id": "nut_004",
+      "nutrient": "Omega-3 脂肪酸",
+      "evidence_level": "中等",
+      "pmid": "33671105",
+      "pcos_relevance": "EPA/DHA 降低發炎指標（CRP、IL-6）、降三酸甘油酯，改善 PCOS 心血管風險",
+      "target_epa_dha_mg_per_day": "1000-2000 mg EPA+DHA",
+      "food_sources_taiwan": [
+        { "food": "鮭魚（100g）", "epa_dha_mg": 2260 },
+        { "food": "鯖魚（100g）", "epa_dha_mg": 2700 },
+        { "food": "秋刀魚（100g）", "epa_dha_mg": 2100 },
+        { "food": "沙丁魚（100g 罐頭）", "epa_dha_mg": 1500 },
+        { "food": "亞麻籽（10g）", "ala_mg": 2200, "note": "ALA 轉換率低（5-10%），素食者仍以藻油為主" }
+      ],
+      "taiwan_note_zh": "台灣東部沿海魚類豐富，每週 2-3 次深海魚即可達目標，無需購買昂貴魚油"
+    },
+    {
+      "id": "nut_005",
+      "nutrient": "鉻（Chromium）",
+      "evidence_level": "初步",
+      "pmid": "30857397",
+      "pcos_relevance": "鉻強化胰島素受體作用，小型 RCT 顯示改善空腹血糖及胰島素阻抗",
+      "supplement_dose_mcg": "200-1000 mcg/day（吡啶甲酸鉻）",
+      "food_sources_taiwan": [
+        { "food": "花椰菜（100g）", "chromium_mcg": 11 },
+        { "food": "燕麥（100g 乾）", "chromium_mcg": 6 },
+        { "food": "牛肉（100g）", "chromium_mcg": 2 }
+      ],
+      "taiwan_note_zh": "飲食來源通常不足，但補充劑研究尚不一致，建議先從飲食調整著手"
+    },
+    {
+      "id": "nut_006",
+      "nutrient": "肌醇（Myo-inositol）",
+      "evidence_level": "強",
+      "pmid": "37581503",
+      "pcos_relevance": "為 PCOS 國際指引（2023）建議的補充劑，改善卵巢功能、排卵率及胰島素敏感性",
+      "recommended_dose": "Myo-inositol 4g + D-chiro-inositol 100mg（40:1 比例）",
+      "food_sources_taiwan": [
+        { "food": "柚子（100g）", "myo_inositol_mg": 460 },
+        { "food": "柳橙（100g）", "myo_inositol_mg": 307 },
+        { "food": "奇異果（100g）", "myo_inositol_mg": 230 },
+        { "food": "豌豆（100g 熟）", "myo_inositol_mg": 158 }
+      ],
+      "taiwan_note_zh": "柚子為台灣特色水果，天然肌醇含量高；但食物難達治療劑量，需補充劑"
+    },
+    {
+      "id": "nut_007",
+      "nutrient": "葉酸（Folate / B9）",
+      "evidence_level": "強（備孕）",
+      "pmid": "37581503",
+      "pcos_relevance": "PCOS 女性排卵異常，備孕需求特殊；葉酸不足增加神經管缺損風險，且 PCOS 患者常見 MTHFR 基因變異影響葉酸代謝",
+      "taiwan_rda_mcg_per_day": 400,
+      "supplement_dose_mcg": "400-800 mcg/day（5-methyltetrahydrofolate 活性型吸收最佳）",
+      "food_sources_taiwan": [
+        { "food": "毛豆（100g 熟）", "folate_mcg": 303 },
+        { "food": "菠菜（100g 熟）", "folate_mcg": 194 },
+        { "food": "蘆筍（100g）", "folate_mcg": 149 },
+        { "food": "雞肝（100g）", "folate_mcg": 590 }
+      ],
+      "taiwan_note_zh": "台灣毛豆為葉酸最佳在地來源，同時提供蛋白質、鎂、鋅，是 PCOS 友善超級食物"
+    }
+  ],
+  "supplement_caution": {
+    "title": "補充劑注意事項",
+    "points": [
+      "本資料庫為教育用途，補充劑劑量需依個人狀況由醫師或營養師調整",
+      "鋅補充劑長期高劑量（> 40mg/day）可能干擾銅吸收，應同時補充少量銅",
+      "維生素 D 補充應先抽血確認血清濃度，過量（> 10000 IU/day）有毒性風險",
+      "肌醇台灣藥局可購得，選擇信譽品牌，注意有無第三方檢驗"
+    ]
+  }
+}

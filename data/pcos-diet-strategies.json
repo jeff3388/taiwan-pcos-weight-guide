@@ -1,0 +1,121 @@
+{
+  "_meta": {
+    "title": "多囊卵巢症候群（PCOS）飲食策略資料庫",
+    "description": "基於 RCT 與系統性回顧的 PCOS 飲食與體重管理策略",
+    "version": "1.0.0",
+    "last_updated": "2026-04-16",
+    "sources": [
+      "Teede HJ et al. (2023) PMID: 37581503 - International Evidence-Based PCOS Guideline",
+      "Barrea L et al. (2021) PMID: 33671105 - Diet and PCOS",
+      "Moran LJ et al. (2013) PMID: 23345168 - Lifestyle changes in PCOS",
+      "衛福部國民健康署 PCOS 衛教資訊"
+    ],
+    "taiwan_prevalence": "台灣育齡女性 PCOS 盛行率約 6-10%",
+    "strategies_count": 7
+  },
+  "strategies": [
+    {
+      "id": "pcos_diet_001",
+      "strategy": "低升糖指數（Low-GI）飲食",
+      "evidence_level": "強",
+      "pmid_references": ["23345168", "33671105"],
+      "mechanism": "PCOS 患者有 50-70% 合併胰島素阻抗，低 GI 飲食降低胰島素峰值，減少卵巢雄激素分泌",
+      "key_principles": [
+        "以全穀類（糙米、燕麥、地瓜）取代精緻澱粉（白飯、白麵）",
+        "每餐先吃蔬菜再吃澱粉，延緩血糖上升",
+        "避免含糖飲料、手搖飲（直接造成高胰島素血症）",
+        "每份澱粉搭配蛋白質或健康脂肪"
+      ],
+      "taiwan_context": "台式早餐的米漿、含糖豆漿是最常見的高 GI 飲品，應優先替換",
+      "weight_loss_effect": "與低脂飲食相比，低 GI 飲食可額外減少約 1.5 kg，並改善胰島素敏感性"
+    },
+    {
+      "id": "pcos_diet_002",
+      "strategy": "5-10% 體重減輕目標",
+      "evidence_level": "強",
+      "pmid_references": ["23345168", "37581503"],
+      "mechanism": "PCOS 患者減重 5% 即可顯著改善月經規律性、排卵率及雄激素水平",
+      "key_principles": [
+        "不追求快速減重，以每週 0.5-1 kg 的速率為目標",
+        "熱量赤字設定在每日 300-500 kcal",
+        "優先保留蛋白質攝取（每公斤體重 1.2-1.6g），避免肌肉流失"
+      ],
+      "taiwan_context": "體重 60 kg 的女性，減重 3-6 kg 即可達治療效果",
+      "clinical_outcome": "月經規律率改善約 40-50%，自然懷孕率提升"
+    },
+    {
+      "id": "pcos_diet_003",
+      "strategy": "高蛋白飲食",
+      "evidence_level": "中等",
+      "pmid_references": ["33671105"],
+      "mechanism": "蛋白質增加飽足感荷爾蒙（GLP-1、PYY），抑制飢餓素（Ghrelin），有助減少總熱量攝取",
+      "target_protein_g_per_kg": "1.2-1.6",
+      "protein_sources_taiwan": [
+        "雞胸肉、雞蛋（早餐核心）",
+        "豆腐、豆漿（植物蛋白，不增加雄激素）",
+        "魚類（鯖魚、鮭魚、秋刀魚）",
+        "毛豆（兼具蛋白質與異黃酮）"
+      ],
+      "taiwan_context": "台灣女性蛋白質攝取量平均偏低，早餐尤其不足，建議每餐達 15-20g"
+    },
+    {
+      "id": "pcos_diet_004",
+      "strategy": "抗發炎飲食模式",
+      "evidence_level": "中等",
+      "pmid_references": ["33671105"],
+      "mechanism": "PCOS 患者慢性低度發炎指標（CRP、IL-6）偏高；抗發炎飲食可降低雄激素水平並改善胰島素敏感性",
+      "key_foods": [
+        { "food": "Omega-3 脂肪酸（魚油、亞麻籽）", "effect": "降低 CRP 及三酸甘油酯" },
+        { "food": "莓果類（藍莓、蔓越莓）", "effect": "花青素抗氧化，改善胰島素信號" },
+        { "food": "深色蔬菜（花椰菜、菠菜）", "effect": "葉酸、鎂、維生素 K" },
+        { "food": "橄欖油", "effect": "單元不飽和脂肪酸，降低發炎指標" },
+        { "food": "薑黃", "effect": "薑黃素（Curcumin）改善胰島素阻抗" }
+      ],
+      "avoid": ["加工食品（香腸、培根）", "含糖飲料", "精緻糖", "油炸食物（夜市炸物）"]
+    },
+    {
+      "id": "pcos_diet_005",
+      "strategy": "肌醇（Inositol）補充",
+      "evidence_level": "中等",
+      "pmid_references": ["33671105", "37581503"],
+      "mechanism": "肌肉醇（Myo-inositol）為胰島素信號傳導的第二信使，PCOS 患者血清肌醇代謝異常",
+      "forms": {
+        "myo_inositol": "4g/day — 改善胰島素敏感性、卵巢功能",
+        "d_chiro_inositol": "100mg/day — 降低雄激素，常與 Myo-inositol 40:1 比例合用"
+      },
+      "food_sources": [
+        "柚子、柳橙等柑橘類（高 Myo-inositol）",
+        "豆類、扁豆",
+        "堅果（腰果、杏仁）"
+      ],
+      "taiwan_note_zh": "保健食品補充需諮詢醫師，過量（>18g/day）可能有胃腸副作用"
+    },
+    {
+      "id": "pcos_diet_006",
+      "strategy": "間歇性斷食（IF）",
+      "evidence_level": "初步",
+      "pmid_references": [],
+      "mechanism": "延長禁食時間可降低胰島素基礎值，理論上有利於 PCOS；但專屬 RCT 仍有限",
+      "approaches": [
+        "16:8（每日禁食 16 小時）— 最常見，對月經周期影響最小",
+        "避免 5:2（兩天極低熱量）— 激烈熱量限制可能干擾 HPA 軸，影響月經"
+      ],
+      "caution": "部分研究顯示過度熱量限制可能升高女性皮質醇，惡化 PCOS 症狀，應循序漸進",
+      "taiwan_note_zh": "若月經周期已不規律，斷食強度應保守，建議先諮詢婦科醫師"
+    },
+    {
+      "id": "pcos_diet_007",
+      "strategy": "DASH 飲食模式（適用於合併高血壓）",
+      "evidence_level": "中等",
+      "pmid_references": ["37581503"],
+      "mechanism": "PCOS 患者心血管風險高於一般女性；DASH 飲食同時改善血壓、胰島素阻抗及血脂",
+      "key_features": [
+        "低鈉（< 2300mg/day）",
+        "高鉀（香蕉、番薯、菠菜）",
+        "低飽和脂肪、高纖維",
+        "每日蔬果至少 8-10 份"
+      ],
+      "taiwan_context": "台式飲食普遍高鈉（醬油、滷肉、泡菜），外食族 PCOS 患者需主動控制"
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "_meta": {
+    "title": "PCOS 胰島素阻抗飲食參考資料庫",
+    "description": "台灣常見食物對胰島素阻抗的影響分類，適用於 PCOS 飲食管理",
+    "version": "1.0.0",
+    "last_updated": "2026-04-16",
+    "sources": [
+      "Barrea L et al. (2021) PMID: 33671105",
+      "Teede HJ et al. (2023) PMID: 37581503",
+      "TFND 台灣食品成分資料庫",
+      "Foster-Powell K et al. (2002) PMID: 12081815 - GI 數值參考"
+    ],
+    "note": "胰島素阻抗（IR）影響 50-70% PCOS 患者，是體重上升的核心機制"
+  },
+  "improve_insulin_sensitivity": {
+    "description": "有助改善胰島素敏感性的食物",
+    "items": [
+      {
+        "food_zh": "燕麥",
+        "food_en": "Oats",
+        "gi_value": 55,
+        "mechanism": "β-葡聚糖（Beta-glucan）延緩葡萄糖吸收，降低餐後血糖峰值",
+        "taiwan_note": "即食燕麥加工較多，選擇傳統燕麥片（rolled oats）效果更佳",
+        "source": "PMID: 12081815"
+      },
+      {
+        "food_zh": "地瓜",
+        "food_en": "Sweet Potato",
+        "gi_value": 54,
+        "mechanism": "GI 中等，富含膳食纖維與鉀，優於白飯（GI: 73）",
+        "taiwan_note": "台灣在地食材，全年供應，蒸食 GI 低於烤食",
+        "source": "PMID: 12081815"
+      },
+      {
+        "food_zh": "糙米",
+        "food_en": "Brown Rice",
+        "gi_value": 55,
+        "mechanism": "保留米糠層，纖維與鎂含量高，鎂為胰島素受體輔因子",
+        "taiwan_note": "與白飯（GI: 73）混合 1:1 是轉換期的好策略",
+        "source": "PMID: 12081815"
+      },
+      {
+        "food_zh": "豆腐",
+        "food_en": "Tofu",
+        "gi_value": 15,
+        "mechanism": "低 GI 高蛋白，異黃酮可能改善胰島素信號（動物研究）",
+        "taiwan_note": "台灣傳統豆腐品質高，板豆腐鈣含量較嫩豆腐高",
+        "source": "TFND D01001"
+      },
+      {
+        "food_zh": "秋葵",
+        "food_en": "Okra",
+        "gi_value": 20,
+        "mechanism": "黏液多糖延緩腸道葡萄糖吸收，動物研究顯示降血糖效果",
+        "taiwan_note": "台灣夏季盛產，涼拌或燙食最佳",
+        "source": "初步研究，非 RCT"
+      },
+      {
+        "food_zh": "醋（烏醋、白醋）",
+        "food_en": "Vinegar",
+        "gi_value": null,
+        "mechanism": "醋酸抑制澱粉酶，餐前攝取可降低餐後血糖約 19-34%",
+        "taiwan_note": "烏醋拌沙拉或飯前喝一湯匙白醋兌水是低成本策略",
+        "source": "Johnston CS et al. (2004) PMID: 15452159"
+      },
+      {
+        "food_zh": "肉桂",
+        "food_en": "Cinnamon",
+        "gi_value": null,
+        "mechanism": "肉桂素（Cinnamaldehyde）活化胰島素受體，改善葡萄糖攝取",
+        "taiwan_note": "每日 1-3g 粉狀肉桂加入燕麥粥或無糖豆漿",
+        "source": "Khan A et al. (2003) PMID: 14633804"
+      },
+      {
+        "food_zh": "鯖魚",
+        "food_en": "Mackerel",
+        "gi_value": 0,
+        "mechanism": "Omega-3 脂肪酸改善細胞膜流動性，增強胰島素受體功能",
+        "taiwan_note": "台灣平價魚類，每週 2-3 次 Omega-3 來源",
+        "source": "PMID: 33671105"
+      }
+    ]
+  },
+  "worsen_insulin_resistance": {
+    "description": "加重胰島素阻抗的食物，PCOS 患者應限制",
+    "items": [
+      {
+        "food_zh": "手搖飲（全糖）",
+        "food_en": "Full-Sugar Bubble Tea",
+        "mechanism": "高果糖玉米糖漿（HFCS）直接肝臟代謝，促進脂質新生，最快速惡化胰島素阻抗",
+        "taiwan_risk": "極高",
+        "typical_fructose_g": 35,
+        "recommendation": "改點無糖，不加糖後血糖衝擊降低 80%"
+      },
+      {
+        "food_zh": "白飯（精緻白米）",
+        "food_en": "White Rice",
+        "gi_value": 73,
+        "mechanism": "高 GI，快速升高血糖及胰島素，台灣人每日主食，累積影響大",
+        "taiwan_risk": "高",
+        "recommendation": "混入 1/3 糙米或藜麥，GI 可降至約 60"
+      },
+      {
+        "food_zh": "加工肉品（香腸、培根、火腿）",
+        "food_en": "Processed Meats",
+        "mechanism": "亞硝酸鹽與 AGE（糖化終末產物）加重氧化壓力，干擾胰島素信號",
+        "taiwan_risk": "高",
+        "recommendation": "早餐以荷包蛋取代培根，減少亞硝酸鹽攝入"
+      },
+      {
+        "food_zh": "油炸食物（鹽酥雞、炸物）",
+        "food_en": "Fried Foods",
+        "mechanism": "反式脂肪及飽和脂肪破壞細胞膜胰島素受體結構",
+        "taiwan_risk": "高",
+        "recommendation": "改為氣炸或烤，夜市限制每週 1 次以下"
+      },
+      {
+        "food_zh": "酒精",
+        "food_en": "Alcohol",
+        "mechanism": "肝臟優先代謝酒精，干擾糖質新生調節，導致空腹血糖不穩",
+        "taiwan_risk": "中等",
+        "recommendation": "PCOS 患者建議完全避免，酒精同時干擾性荷爾蒙代謝"
+      }
+    ]
+  },
+  "taiwan_meal_framework": {
+    "title": "台灣 PCOS 友善三餐框架",
+    "breakfast": {
+      "template": "蛋白質 15-20g + 低 GI 澱粉 + 蔬菜",
+      "example": "鮪魚蛋餅 + 無糖豆漿 + 小黃瓜",
+      "avoid": "米漿、含糖豆漿、奶酥吐司"
+    },
+    "lunch": {
+      "template": "蔬菜 1/2 盤 + 蛋白質 1/4 盤 + 低 GI 澱粉 1/4 盤",
+      "example": "便當選手：燙青菜、雞腿、糙米飯半碗",
+      "avoid": "控肉飯（高飽和脂肪）、炒飯（高 GI）"
+    },
+    "dinner": {
+      "template": "蔬菜為主 + 適量蛋白質 + 澱粉可減半",
+      "example": "清蒸魚 + 燙菠菜 + 半碗地瓜",
+      "avoid": "宵夜（延長胰島素分泌時間）"
+    },
+    "snacks": {
+      "approved": ["無糖希臘優格", "一把堅果（約 30g）", "水煮毛豆", "茶葉蛋"],
+      "avoid": ["餅乾", "蛋糕", "含糖優酪乳"]
+    }
+  }
+}
